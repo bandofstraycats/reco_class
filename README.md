@@ -3,19 +3,18 @@
 Setup instructions:
 
 #### 1. Download the SSH key.
-https://goo.gl/K9x9CR
 
 #### 2. Select AWS instance from the list:
 
 #### 2. Connect to the AWS instance using the key .
-``chmod 400 reco_class.pem
-ssh -i reco_class.pem ubuntu@AWS_INSTANCE``
+``chmod 400 reco_class.pem``
+``ssh -i reco_class.pem ubuntu@AWS_INSTANCE``
 
 #### 3.  Create your working directory.
-``mkdir YOUR_NAME.YOUR_SURNAME
-cd YOUR_NAME.YOUR_SURNAME
-git clone https://github.com/bandofstraycats/reco_class.git
-cd reco_class``         
+``mkdir YOUR_NAME.YOUR_SURNAME``
+``cd YOUR_NAME.YOUR_SURNAME``
+``git clone https://github.com/bandofstraycats/reco_class.git``
+``cd reco_class``         
      
 #### 3. Pick a random port from 6000 to 7000.
 
