@@ -1,8 +1,9 @@
 # Learning representations using Deep learning for Recommendation
 
 The objective of this class is to present deep representation learning methods for recommendation task.
+This class was presented at [SFdS](https://www.sfds.asso.fr/).
 
-## Contents of the class:
+## Contents
 ### Introduction to deep learning
 ### Multi-layer neural network
 * Practical exercise on building deep network for recommendation
@@ -14,7 +15,7 @@ The objective of this class is to present deep representation learning methods f
 The practical exercise shows how to build deep network for recommendation on [MovieLens 1M dataset](https://grouplens.org/datasets/movielens/1m/).
 
 ### Practical details.
-AWS EC2 using public image: ami-49cff25f is configured to run the exercise.
+AWS EC2 public image: ami-49cff25f is configured to run the exercise.
 
 
 Disclamer.
