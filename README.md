@@ -1,32 +1,21 @@
-# Deep learning for Recommendation class
+# Learning representations using Deep learning for Recommendation
 
-Setup instructions:
+The objective of this class is to present deep representation learning methods for recommendation task.
 
-#### 1. Download the SSH key.
+## Contents of the class:
+### Introduction to deep learning
+### Multi-layer neural network
+* Practical exercise on building deep network for recommendation
+### Learning user and item representations
+* Learning item representation using Convolution Neural Network
+* Practical exercise on adding movie poster representation into deep network
+* Learning user representation using Recurrent Neural Network
 
-#### 2. Select AWS instance from the list.
+The practical exercise shows how to build deep network for recommendation on [MovieLens 1M dataset](https://grouplens.org/datasets/movielens/1m/).
 
-#### 3. Connect to the AWS instance using the key .
-``chmod 400 reco_class.pem``
+### Practical details.
+AWS EC2 using public image: ami-49cff25f is configured to run the exercise.
 
-``ssh -i reco_class.pem ubuntu@AWS_INSTANCE``
 
-#### 4. Create your working directory.
-``mkdir YOUR_NAME.YOUR_SURNAME``
-
-``cd YOUR_NAME.YOUR_SURNAME``
-
-``git clone https://github.com/bandofstraycats/reco_class.git``
-
-``cd reco_class``         
-     
-#### 5. Pick a random port from 6000 to 7000.
-
-#### 6. Start jupyter server.
-``jupyter notebook --no-browser --port YOUR_PORT --ip=*``
-
-#### 7. Open notebook in your browser.
-``http://AWS_INSTANCE:YOUR_PORT/?token=YOUR_TOKEN``
-
-#### 8. Navigate to the exercise.
-``reco/DL_reco_class_exercise.ipynb``
+Disclamer.
+Some of the pictures for this class are borrowed from other deep learning classes.
