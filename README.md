@@ -17,6 +17,3 @@ The practical exercise shows how to build deep network for recommendation on [Mo
 ### Practical details.
 AWS EC2 public image: ami-49cff25f is configured to run the exercise.
 
-
-Disclamer.
-Some of the pictures for this class are borrowed from other deep learning classes.
